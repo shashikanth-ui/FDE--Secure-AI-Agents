@@ -1,0 +1,24 @@
+# Secrets & Environment Variables
+.env
+.env.*
+!.env.example
+
+# ADK local session state
+.adk/
+re_analyst/.adk/
+
+# Python bytecode & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDE & OS artifacts
+.vscode/
+.idea/
+.DS_Store
